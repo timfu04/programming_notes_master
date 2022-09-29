@@ -6,6 +6,12 @@ console.log(2);
 
 
 /* 1. Variables & Constants */
+// Modern syntax: let, const
+// Old / original syntax: var
+// Note: Modern syntax might not work in all browsers, some browsers do not support modern JavaScript syntax
+// Variable name only contain letters, numbers, underscore, dollar sign, but cannot start with number
+// Naming convention: camelCase
+
 // Modern way to declare variables
 let age = 25;
 let year = 2019;
@@ -26,6 +32,7 @@ console.log(points)
 
 
 /* 2. Strings */
+// Quote insensitive, can use either single or double quotes
 console.log("this is a string");
 
 let email = 'mario@thenetninja.co.uk';
@@ -42,11 +49,14 @@ console.log(fullName);
 console.log(fullName[0]);
 console.log(fullName[2]);
 
+// Function - a snippet of code that perform a specific task
+// Method - a function that associated with a particular object or data type
+
 // String length
-console.log(fullName.length);
+console.log(fullName.length); // accessing object property
 
 // String methods
-console.log(fullName.toUpperCase());
+console.log(fullName.toUpperCase()); // calling object method
 
 let result = fullName.toLowerCase();
 console.log(result, fullName);
@@ -76,9 +86,7 @@ console.log(result5);
 /* 3. Numbers */
 let radius = 10;
 const pi = 3.14;
-
 console.log(radius, pi)
-
 
 // Math operators +, -, *, /, **, %
 console.log(10 / 2);
@@ -176,6 +184,8 @@ let age2;
 console.log(age2, age2 + 3, `this age is ${age2}`);
 
 // Null - intentional absence of any value
+// Why use Null? e.g. to clear form
+
 let age3 = null;
 console.log(age3, age3 + 3, `this age is ${age3}`);
 
@@ -228,15 +238,18 @@ console.log(age5 != '25'); // this will return false
 
 // Strict comparison (different types cannot be equal)
 console.log(age5 === 25); 
-console.log(age5 === '25'); // this will return false, type conversion will not happen in the background
+console.log(age5 === '25'); // this will return false, type conversion will not happen in the background (this is an example of implict type conversion)
 console.log(age5 !== 25); 
 console.log(age5 !== '25'); 
 
 
 
 /* 8. Type conversion */
+// Explicit type conversion - call function to type conversion
+// Implicit type conversion - type conversion happens automatically in the background
+
 let score2 = '100';
-score2 = Number(score2);
+score2 = Number(score2); // this is an example of explicit type conversion
 console.log(score2 + 1)
 console.log(typeof score2);
 
