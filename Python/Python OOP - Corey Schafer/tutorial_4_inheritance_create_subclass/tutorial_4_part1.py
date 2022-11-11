@@ -51,10 +51,6 @@ class Manager(Employee):
         for emp in self.employees:
             print(f"--> {emp.fullname()}")
             
-    
-
-
-
 
 if __name__ == "__main__":
     
@@ -67,6 +63,7 @@ if __name__ == "__main__":
     #     Developer (first)
     #     Employee (second)
     #     builtins.object (third) - every object in Python inherits from object class
+    
     # print(help(Developer))
     
 
