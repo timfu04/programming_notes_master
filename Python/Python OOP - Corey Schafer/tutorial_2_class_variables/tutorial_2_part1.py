@@ -53,9 +53,10 @@ print(emp_2.raise_amount)
 print("\n")
 
 
-# Assign new value through class would change value across all instances
+# Assign new value through class would change value across all instances/objects
 Employee.raise_amount = 1.06
 
+# instance attribute/variable override class attribute/variable
 print(emp_1.raise_amount) # 1.05 because "raise_amount" can already be found in instance level, therefore it will not search in class level
 print(Employee.raise_amount)
 print(emp_2.raise_amount)
