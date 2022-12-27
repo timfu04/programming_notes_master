@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML Forms</title>
+</head>
+<body>
+    
+    <h1>HTML Forms</h1>
+
+    <form>
+        <!-- Label and input fields -->
+        <label for="username">enter username:</label>
+        <input type="text" id="username" name="username" placeholder="your username" required>
+        <br><br>
+        <label for="email">enter email:</label>
+        <input type="email" id="email" name="email" placeholder="your email" required>
+        <br><br>
+        <label for="password">enter password:</label>
+        <input type="password" id="password" name="password" placeholder="your password" required>
+        
+
+        <!-- Radio buttons -->
+        <p>Select your age:</p>
+        
+        <!-- All radio buttons shared same name -->
+        <input type="radio" name="age" value="0-25" id="option-1">
+        <label for="option-1">0-25</label>
+        <input type="radio" name="age" value="26-50" id="option-2">
+        <label for="option-2">26-50</label>
+        <input type="radio" name="age" value="51+" id="option-3">
+        <label for="option-3">51+</label>
+
+        <br><br>
+        
+        <!-- Dropdown box -->
+        <label for="question">Security question:</label>
+        <select name="question" id="question">
+            <option value="q1">What colour is your favourite pair of socks?</option>
+            <option value="q2">If you could be a vegetable, what it be?</option>
+            <option value="q3">What is your best ever security questions?</option>
+        </select>
+
+        <br><br>
+
+        <label for="answer">Security question answer:</label>
+        <input type="text" id="answer" name="answer">
+
+        <br><br>
+
+        <!-- Text area -->
+        <label for="bio">Your bio:</label>
+        <br>
+        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="about you..."></textarea>
+
+        <!-- Submit button -->
+        <br>
+        <input type="submit" value="submit the form">
+
+    </form>
+
+</body>
+</html>
