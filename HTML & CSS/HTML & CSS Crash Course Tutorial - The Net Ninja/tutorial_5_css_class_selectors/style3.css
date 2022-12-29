@@ -1,0 +1,24 @@
+/* inheritance */
+
+/* inherit by default - color and font-weight applied on all the content within <div> tag */
+/* inherit not by default - border and margin only applied on <div> tag itself, not content within <div> tag */
+
+div{
+    color: lightcoral; 
+    border: 1px solid grey; 
+    margin: 40px;
+    font-weight: bold;
+}
+
+/* border and margin are applied on <div> tag itself and content within <div> tag */
+div p{
+    border: inherit;
+    margin: inherit;
+    color: crimson; /* override inherited color */
+}
+
+p{
+    color: orange;
+}
+
+

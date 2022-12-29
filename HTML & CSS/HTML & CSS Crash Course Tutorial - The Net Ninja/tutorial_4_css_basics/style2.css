@@ -1,0 +1,20 @@
+/* Convert inline elements into block-level elements */
+/* span{
+    display: block;
+} */
+
+/* Convert block-level elements into inline elements */
+/* div{
+    display: inline;
+} */
+
+span{
+    margin: 20px;
+    padding: 20px;
+}
+
+div{
+    border: 2px solid crimson;
+    margin: 20px;
+    padding: 20px;
+}

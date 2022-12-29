@@ -1,0 +1,10 @@
+/* descendant selector */
+/* <p> tag within <div> tag */
+div p{
+    color: purple;
+}
+
+/* class error within <div> tag */
+div .error{
+    color: red;
+}

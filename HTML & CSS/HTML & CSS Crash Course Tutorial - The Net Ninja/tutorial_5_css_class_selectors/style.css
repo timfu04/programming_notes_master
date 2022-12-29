@@ -1,0 +1,62 @@
+/* classes as selectors */
+/* <p> tag with class error */
+p.error{
+    color: red;
+}
+
+/* <p> tag with class success */
+p.success{
+    color: green;
+}
+
+/* <p> tag with class success and feedback */
+p.success.feedback{
+    border: 1px dashed green;
+}
+
+
+
+/* id as selector */
+/* <div> tag with id content */
+div#content{
+    background-color: #ebebeb;
+    padding: 20px;
+}
+
+
+
+/* attribute as selector */
+/* 
+= means exact match
+* means include
+$ means ends with 
+*/
+/* <a> tag with href attribute */
+a[href]{
+   background-color: bisque; 
+}
+
+/* <a> tag with href attribute and its value include google */
+a[href*="google"]{
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* <a> tag with href attribute and its value include youtube */
+a[href*=youtube]{
+    color: white;
+    background: red;
+    border: 2px solid blue;
+}
+
+/* <a> tag with href attribute and its value ends with .net */
+a[href$=".net"]{
+    background-color: aqua;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+
