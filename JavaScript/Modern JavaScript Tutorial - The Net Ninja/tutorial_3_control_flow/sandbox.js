@@ -1,4 +1,8 @@
+const prefix_suffix = "#".repeat(20);
+
 /* 1. for loops */
+console.log(`${prefix_suffix} 1. for loops ${prefix_suffix}`)
+
 // {} means code block 
 // semicolon is needed for end of statement, but not for end of code block
 
@@ -17,6 +21,7 @@ for(let i = 0; i < names.length; i++){
 
 
 /* 2. while loops */
+console.log(`${prefix_suffix} 2. while loops ${prefix_suffix}`)
 let i = 0;
 while(i < 5){
     console.log('in while loop:', i);
@@ -39,6 +44,8 @@ do{
 
 
 /* 3. if statements */
+console.log(`${prefix_suffix} 3. if statements ${prefix_suffix}`)
+
 const age = 25;
 if(age > 20){
     console.log('you are over 20 years old');
@@ -58,6 +65,8 @@ if(password.length >= 8){
 
 
 /* 4. else statements */
+console.log(`${prefix_suffix} 4. else statements ${prefix_suffix}`)
+
 const password2 = 'p@ss';
 if(password2.length >= 8){
     console.log('that password is long enough!');
@@ -77,6 +86,8 @@ if(password3.length >= 12){
 
 
 /* 5. Logical operators - OR || and AND && */
+console.log(`${prefix_suffix} 5. Logical operators - OR || and AND && ${prefix_suffix}`)
+
 const password4 = 'p@ssword1234';
 if(password4.length >= 12 && password4.includes('@')){
     console.log('that password is mighty strong!');
@@ -106,6 +117,8 @@ if(password6.length >= 12 && password6.includes('@')){
 
 
 /* 6. Logical NOT (!) */
+console.log(`${prefix_suffix} 6. Logical NOT (!) ${prefix_suffix}`)
+
 console.log(!true);
 console.log(!false);
 
@@ -117,6 +130,8 @@ if(!user){
 
 
 /* 7. break and continue */
+console.log(`${prefix_suffix} 7. break and continue ${prefix_suffix}`)
+
 const scores = [50, 25, 0, 30, 100, 20, 10];
 for(let i = 0; i < scores.length; i++){
 
@@ -138,6 +153,8 @@ for(let i = 0; i < scores.length; i++){
 // if there is a match, it will also run the other cases below, therefore need break
 // if there is no match at all, it will run default code block
 // switch statement uses strict equality
+console.log(`${prefix_suffix} 8. switch statements ${prefix_suffix}`)
+
 const grade = 'D';
 
 switch(grade){
@@ -168,6 +185,7 @@ switch(grade){
 /* 9. Variables & block scope */
 // let & const are block scoped
 // var is always global scoped
+console.log(`${prefix_suffix} 9. Variables & block scope ${prefix_suffix}`)
 
 let age2 = 30; // this is in root level / global scope
 
@@ -183,3 +201,5 @@ if(true){
 }
 
 console.log('outside 1st code block: ', age2, name); 
+
+

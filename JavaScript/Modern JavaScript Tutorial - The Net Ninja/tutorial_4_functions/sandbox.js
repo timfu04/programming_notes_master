@@ -1,4 +1,8 @@
+const prefix_suffix = "#".repeat(20)
+
 /* 1. Function declaration */
+console.log(`${prefix_suffix} 1. Function declaration ${prefix_suffix}`)
+
 function greet(){
     console.log('hello there');
 }
@@ -9,6 +13,8 @@ greet(); // call or invoke function
 
 /* 2. Function expression */
 // Store function in a variable
+console.log(`${prefix_suffix} 2. Function expression ${prefix_suffix}`)
+
 const speak = function(){
     console.log('good day!');
 };
@@ -18,6 +24,8 @@ speak();
 
 
 /* 3. Arguments & parameters */
+console.log(`${prefix_suffix} 3. Arguments & parameters ${prefix_suffix}`)
+
 const speak2 = function(name){ // "name" is a parameter. "name" is a local variable, within this function scope
     console.log(`good day ${name}!`); 
 };
@@ -37,6 +45,8 @@ speak3('shaun'); // first parameter will be overridden, second parameter will be
 
 
 /* 4. Returning values */
+console.log(`${prefix_suffix} 4. Returning values ${prefix_suffix}`)
+
 const calcArea = function(radius){
     return 3.14 * radius**2;
 }
@@ -47,6 +57,8 @@ console.log(area);
 
 
 /* 5. Arrow function */
+console.log(`${prefix_suffix} 5. Arrow function ${prefix_suffix}`)
+
 // Regular function 
 const calcArea2 = function(radius){
     return 3.14 * radius**2;
@@ -56,7 +68,7 @@ const area2 = calcArea2(10);
 console.log(area2);
 
 // Arrow function
-const calcArea3 = (radius) => { // remove "function" keyword
+const calcArea3 = (radius) => { // remove "function" keyword and add arrow
     return 3.14 * radius**2;
 }
 const area3 = calcArea3(5);
@@ -99,6 +111,8 @@ console.log(bill_ans([20, 15, 45], 0.2));
 
 
 /* 6. Functions vs Methods */
+console.log(`${prefix_suffix} 6. Functions vs Methods ${prefix_suffix}`)
+
 // Functions (self defined)
 const greet3 = () => 'hello';
 
@@ -113,6 +127,7 @@ console.log(result3);
 
 
 /* 7. Callback & forEach */
+console.log(`${prefix_suffix} 7. Callback & forEach ${prefix_suffix}`)
 
 // A callback function is a function passed into another function as an argument
 const myFunc = (callbackFunc) => { 
@@ -133,6 +148,8 @@ myFunc(value => {
 })
 
 // forEach
+// The callback function passed into forEach() is called for each element in the array, and it's executed once for each element. 
+
 // Example 1 (callback function inside function call)
 let people = ['mario', 'luigi', 'ryu', 'shaun', 'chun-li'];
 

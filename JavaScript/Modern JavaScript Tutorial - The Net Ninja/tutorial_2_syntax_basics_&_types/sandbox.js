@@ -1,3 +1,5 @@
+const prefix_suffix = "#".repeat(20)
+
 alert("Hello World Again!");
 
 console.log(1);
@@ -11,6 +13,7 @@ console.log(2);
 // Note: Modern syntax might not work in all browsers, some browsers do not support modern JavaScript syntax
 // Variable name only contain letters, numbers, underscore, dollar sign, but cannot start with number
 // Naming convention: camelCase
+console.log(`${prefix_suffix} 1. Variables & Constants ${prefix_suffix}`)
 
 // Modern way to declare variables
 let age = 25;
@@ -33,6 +36,8 @@ console.log(points)
 
 /* 2. Strings */
 // Quote insensitive, can use either single or double quotes
+console.log(`${prefix_suffix} 2. Strings ${prefix_suffix}`)
+
 console.log("this is a string");
 
 let email = 'mario@thenetninja.co.uk';
@@ -84,6 +89,8 @@ console.log(result5);
 
 
 /* 3. Numbers */
+console.log(`${prefix_suffix} 3. Numbers ${prefix_suffix}`)
+
 let radius = 10;
 const pi = 3.14;
 console.log(radius, pi)
@@ -121,6 +128,8 @@ console.log(result9);
 
 
 /* 4. Template strings / template literal (insert variables into string without using + symbol) */
+console.log(`${prefix_suffix} 4. Template strings ${prefix_suffix}`)
+
 const title = 'Best of reads of 2019';
 const author = 'Mario';
 const likes2 = 30;
@@ -144,6 +153,8 @@ console.log(html);
 
 
 /* 5. Array */
+console.log(`${prefix_suffix} 5. Array  ${prefix_suffix}`)
+
 let ninjas = ['shaun', 'ryu', 'chun-li'];
 console.log(ninjas[1]);
 
@@ -178,7 +189,9 @@ console.log(ninjas);
 
 
 
-/* 6. Null & Undefined */ 
+/* 6. Null & Undefined */
+console.log(`${prefix_suffix} 6. Null & Undefined  ${prefix_suffix}`)
+
 // Undefined - variable has not been assigned a value;
 let age2;
 console.log(age2, age2 + 3, `this age is ${age2}`);
@@ -192,6 +205,8 @@ console.log(age3, age3 + 3, `this age is ${age3}`);
 
 
 /* 7. Boolean */
+console.log(`${prefix_suffix} 7. Boolean  ${prefix_suffix}`)
+
 console.log(true, false, "true", "false");
 
 // Methods that return booleans
@@ -245,6 +260,8 @@ console.log(age5 !== '25');
 
 
 /* 8. Type conversion */
+console.log(`${prefix_suffix} 8. Type conversion  ${prefix_suffix}`)
+
 // Explicit type conversion - call function to type conversion
 // Implicit type conversion - type conversion happens automatically in the background
 
@@ -259,18 +276,21 @@ console.log(result20); // this will return NaN
 let result21 = String(50); 
 console.log(result21, typeof result21);
 
-// Falsy values - 0 , string with any value
-// Truthy values - negatives or positives, empty string
+// Falsy values - false , 0 , -0 , 0n , "" , null , undefined , and NaN
+// Truthy values - all values are truthy except false , 0 , -0 , 0n , "" , null , undefined , and NaN
 let result22 = Boolean(100); // Truthy value 
 console.log(result22, typeof result22);
 
-let result23 = Boolean(0); // Falsy value
+let result23 = Boolean(-50); // Truthy value 
 console.log(result23, typeof result23);
 
-let result24 = Boolean('0'); // Truthy value
+let result24 = Boolean(0); // Falsy value
 console.log(result24, typeof result24);
 
-let result25 = Boolean(''); // Falsy value
+let result25 = Boolean('0'); // Truthy value
 console.log(result25, typeof result25);
+
+let result26 = Boolean(""); // Falsy value
+console.log(result26, typeof result26);
 
 
