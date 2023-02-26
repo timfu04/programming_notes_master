@@ -10,12 +10,16 @@ const Home = () => {
 
     return (
         <div className="home">
+            
+            {/* map() method loops through each element in the array and applies the function provided to it (in this case, the function creates HTML style templates for each element in the array)*/}
+            {/* No curly braces after fat arrow because its returning a single value */}
             {blogs.map((blog) => 
                 <div className="blog-preview" key={blog.id}>
                     <h2>{blog.title}</h2>
                     <p>Written by {blog.author}</p>
                 </div>
             )}
+
         </div>
     );
 }
