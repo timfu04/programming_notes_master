@@ -9,21 +9,28 @@ const Home = () => {
         { title: 'Web dev top tips', body: 'lorem ipsum...', author: 'mario', id: 3 }
     ]);
 
+    const [name, setName] = useState("mario");
+
     const handleDelete = (id) => {
         const newBlogs = blogs.filter(blog => blog.id !== id);
         setBlogs(newBlogs);
     };
 
+    // Runs everytime "name" variable changes value
     useEffect(() => {
-        console.log("use effect ran"); // Side effect 1
-        console.log(blogs); // Side effect 2
-    });
+        console.log(name);
+    }, [name]); // Dependency array ("name" is the dependency)
+
+    // Only runs after the first initial render to the DOM
+    useEffect(() => {
+        console.log("use effect ran");
+    }, []); // Empty dependency array
 
     return (
         <div className="home">
-
-            {/* Pass "handleDelete" function as props */}
             <BlogList blogs={blogs} title="All Blogs!" handleDelete={handleDelete}/>
+            <button onClick={() => {setName("luigi")}}>Change name</button>
+            <p>{name}</p>
         </div>
     );
 }
