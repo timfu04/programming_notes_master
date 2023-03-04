@@ -24,6 +24,7 @@ const Home = () => {
         <div className="home">
             {/* // Show loading message when preparing blog data */}
             {isPending && <div>Loading...</div>}
+            
             {blogs && <BlogList blogs={blogs} title="All Blogs!"/>}
             
         </div>
