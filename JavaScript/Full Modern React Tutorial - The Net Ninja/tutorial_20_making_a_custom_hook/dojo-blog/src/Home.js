@@ -3,6 +3,8 @@ import useFetch from "./useFetch";
 
 const Home = () => {
 
+    // Destructure return values from "useFetch"
+    // Assign value from "data" to "blogs"
     const {data : blogs, isPending, error} = useFetch("http://localhost:8000/blogs");
 
     return (
