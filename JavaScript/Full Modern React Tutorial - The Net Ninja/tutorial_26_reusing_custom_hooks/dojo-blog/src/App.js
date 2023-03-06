@@ -14,8 +14,6 @@ function App() {
           <Routes>
             <Route path='/' element={<Home/>}></Route>
             <Route path='/create' element={<Create/>}></Route>
-
-            {/* Add ":id" as router parameter */}
             <Route path='/blogs/:id' element={<BlogDetails/>}></Route>    
           </Routes>
         </div>
