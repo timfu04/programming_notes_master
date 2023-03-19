@@ -1,0 +1,7 @@
+INDEX VERSION 1.132+C:\Users\Clement\Desktop\programming_notes\Java\Java Full Course - Bro Code\.metadata\.plugins\org.eclipse.jdt.core
+2110967670.index
+1171051694.index
+1865797976.index
+4120106.index
+3959137331.index
+2395260379.index
