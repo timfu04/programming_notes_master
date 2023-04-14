@@ -3,7 +3,7 @@ public class Main2 {
 
 	public static void main(String[] args) {
 		
-		// Just an example, classes are not declared
+		// Just an example, classes are not declared (get error)
 		Player player = new Player();
 		Enemy enemy = new Enemy();
 		Item item = new Item();

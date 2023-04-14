@@ -11,7 +11,9 @@ public class Main {
 
 		// Both statement below do the same thing (it returns memory address by default before override the "toString" method)
 		System.out.println(car); // called implicitly
-		System.out.println("");		
+		
+		System.out.println();		
+		
 		System.out.println(car.toString()); // called explicitly
 	}
 }

@@ -22,7 +22,7 @@ public class Main {
 		String result7 = name.toUpperCase();
 		String result8 = name.toLowerCase();
 		
-		String result9 = name.trim();
+		String result9 = name.trim(); // removes all leading and trailing spaces in the string
 		
 		String result10 = name.replace("o", "u");
 		

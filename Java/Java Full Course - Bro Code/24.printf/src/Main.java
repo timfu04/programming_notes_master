@@ -32,6 +32,7 @@ public class Main {
 		
 		//[precision]
 		// sets numbers of digits of precision when outputting floating-point values
+		// ".2" means two decimal points
 		System.out.printf("You have this much money %.2f\n", myDouble);
 		
 		//[flags]

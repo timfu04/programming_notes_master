@@ -12,14 +12,13 @@ public class Main {
 		Friend friend3 = new Friend("Squidward");
 		Friend friend4 = new Friend("Sandy");
 		
-		// Best practice
-		// Do not need to create Friend object, because its own by the class
+		// Best practice - do not need to create Friend object, because its own by the class
 		System.out.println(Friend.numberOfFriends);
-		
-		// Not recommended to access static variable/method from object (not there is a warning)
-//		System.out.println(friend1.numberOfFriends);
-		
 		Friend.displayFriends();
+		
+		// Not recommended to access static variable/method from object (no error but warning)
+		System.out.println(friend1.numberOfFriends);
+		friend1.displayFriends();
 	}
 }
 

@@ -9,14 +9,17 @@ public class Main {
 		
 		Car car = new Car("Chevrolet", "Camaro", 2021);
 		
+		// Calling getters
 		System.out.println(car.getMake());
 		System.out.println(car.getModel());
 		System.out.println(car.getYear());
 		
+		// Calling setter
 		car.setYear(2022);
 		
-		System.out.println("");
+		System.out.println();
 		
+		// Calling getters
 		System.out.println(car.getMake());
 		System.out.println(car.getModel());
 		System.out.println(car.getYear());

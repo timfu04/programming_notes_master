@@ -5,7 +5,7 @@ public class Main {
 		
 		// array - used to store multiple values in a single variable
 		
-		String[] cars = {"Camaro", "Corvette", "Tesla"}; // only can store String data type elements
+		String[] cars = {"Camaro", "Corvette", "Tesla"}; // in this case, only can store String data type elements
 		
 		cars[0] = "Mustang";
 		

@@ -7,7 +7,8 @@ public class Main {
 		// for-each (enhanced for-loop) - traversing technique to iterate through the elements in an array/ collection 
 		// 			  less steps, more readable than standard for loop
 		// 			  less flexible
-
+		
+		// array
 		String[] animals = {"cat", "dog", "rat", "bird"};
 		
 		// for-each loop

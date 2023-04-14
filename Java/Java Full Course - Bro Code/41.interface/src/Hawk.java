@@ -5,6 +5,10 @@ public class Hawk implements Predator{ // implements Predator interface
 	public void hunt() {
 		System.out.println("*The hawk is hunting*");
 	}
+	
+	public void testPrint() {
+		System.out.println("this is to prove variables can be inherit from interface class: " + test_string);
+	}
 }
 
 

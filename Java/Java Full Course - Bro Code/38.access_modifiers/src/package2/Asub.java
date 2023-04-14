@@ -12,6 +12,7 @@ public class Asub extends A{
 		Asub asub = new Asub();
 		// Able to access "protectedMessage" variable from different class and different package 
 		// as long as it is the sub class of the class that contain the protected variable
+		// "Asub" is subclass of "A"
 		System.out.println(asub.protectedMessage);
 	}
 }

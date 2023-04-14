@@ -6,11 +6,11 @@ public class Main {
 		Car car1 = new Car("Chevrolet", "Camaro", 2021);
 		Car car2 = new Car("Ford", "Mustang", 2022);
 		
-		// copy all the values from car 1 (separated object, different memory address)
+		// copy all the values from car1 into car2 (separated object, different memory address)
 		car2.copy(car1);
 		
-		System.out.println(car1); // print memory address
-		System.out.println(car2); // print memory address
+		System.out.println(car1); // print car1 memory address
+		System.out.println(car2); // print car2 memory address
 		System.out.println();
 		System.out.println(car1.getMake());
 		System.out.println(car1.getModel());
@@ -19,6 +19,7 @@ public class Main {
 		System.out.println(car2.getMake());
 		System.out.println(car2.getModel());
 		System.out.println(car2.getYear());
+		System.out.println();
 		
 		
 		// Make a copy while instantiating Car object by creating another overloaded constructor

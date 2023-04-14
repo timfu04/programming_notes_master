@@ -43,7 +43,7 @@ public class Main {
 		
 		System.out.println("");
 		
-		Pizza pizza5 = new Pizza("thicc crust");		
+		Pizza pizza5 = new Pizza();		
 		System.out.println("Here are the ingredients of your pizza");
 		System.out.println(pizza5.bread);
 		System.out.println(pizza5.sauce);

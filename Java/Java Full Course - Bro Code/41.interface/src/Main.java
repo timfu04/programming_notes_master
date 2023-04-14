@@ -12,6 +12,8 @@ public class Main {
 		
 		Hawk hawk = new Hawk();
 		hawk.hunt();
+		hawk.testPrint();
+		
 		
 		Fish fish = new Fish();
 		fish.hunt();

@@ -17,7 +17,7 @@ public class Main {
 		System.out.println(refrigerator[1].name);
 		System.out.println(refrigerator[2].name);
 		
-		System.out.println("");
+		System.out.println();
 		
 		Food[] refrigerator2 = {food1, food2, food3};
 		

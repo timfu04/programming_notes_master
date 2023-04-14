@@ -18,7 +18,7 @@ public class Main {
 	// need to be a static method to be accessed from another static method (main method)
 	static void hello(String name, int age) {
 		System.out.println("Hello " + name);
-		System.out.println("You are " + age);
+		System.out.println("You are " + age + " years old");
 	}
 	
 	// add two numbers
