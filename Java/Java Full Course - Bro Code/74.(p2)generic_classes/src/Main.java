@@ -22,6 +22,7 @@ public class Main {
 		// Specify what reference type youre passing into the constructor in the angle bracket
 		MyGenericClass <Integer, Integer> myInt2 = new MyGenericClass<>(1, 9);
 		MyGenericClass <Double, Double> myDouble2 = new MyGenericClass<>(3.14, 1.01);
+		MyGenericClass <Integer, Double> myValue = new MyGenericClass<>(2, 1.01);
 		
 		// Error because not passing in sub class of Number class (e.g. Double, Integer, etc.)
 //		MyGenericClass <Character, Character> myChar2 = new MyGenericClass<>('@', '$');
@@ -32,11 +33,17 @@ public class Main {
 		System.out.println(myDouble2.getValue());
 //		System.out.println(myChar2.getValue());
 //		System.out.println(myString2.getValue());
+		System.out.println();
 		
 		System.out.println(myInt2.getValue2());
 		System.out.println(myDouble2.getValue2());
 //		System.out.println(myChar2.getValue2());
 //		System.out.println(myString2.getValue2());
+		System.out.println();
+		
+		System.out.println(myValue.getValue());
+		System.out.println(myValue.getValue2());
+		System.out.println();
 		
 		// Example
 		// HashMap class uses generics too

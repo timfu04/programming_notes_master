@@ -13,7 +13,7 @@ public class Main {
 		try {
 			FileReader reader = new FileReader("art.txt");
 			int data = reader.read(); // reads one character
-			while(data != -1) {
+			while(data != -1) { // -1 means end of file
 				System.out.print((char)data);
 				data = reader.read();
 			}

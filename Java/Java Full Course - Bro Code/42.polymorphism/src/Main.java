@@ -6,7 +6,7 @@ public class Main {
 		// polymorphism = greek word for poly-"many", morph-"form"
 		//				  The ability of an object to identify as more than one type (data type)
 
-		// All these 3 objects(Car, Bicycle, Boat) can also be identify as Vehicle (in common)
+		// All these 3 objects(Car, Bicycle, Boat) can also be identify as Vehicle (something in common)
 		Car car = new Car();
 		Bicycle bicycle = new Bicycle();
 		Boat boat = new Boat();

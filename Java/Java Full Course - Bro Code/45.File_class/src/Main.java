@@ -23,6 +23,7 @@ public class Main {
 		}
 		
 		
+		// Other examples
 		// Extra backslash to escape backslash
 //		File file2 = new File("C:\\Users\\Clement\\Desktop\\secret_message.txt");
 //		
