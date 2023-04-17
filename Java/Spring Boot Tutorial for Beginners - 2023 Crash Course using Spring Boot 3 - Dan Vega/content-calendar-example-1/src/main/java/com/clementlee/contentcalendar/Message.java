@@ -1,6 +1,8 @@
 package com.clementlee.contentcalendar;
 
 import org.springframework.stereotype.Component;
+
+// "@Component" is class-level annotation
 @Component // indicate "Message" class is a Spring-managed component (included in Application Context)
 public class Message {
 

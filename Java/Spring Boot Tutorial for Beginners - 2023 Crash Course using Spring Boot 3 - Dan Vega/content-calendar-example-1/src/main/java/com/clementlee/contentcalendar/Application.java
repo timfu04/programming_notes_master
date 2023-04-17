@@ -12,8 +12,8 @@ public class Application {
 
 	public static void main(String[] args) {
 		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
-		Arrays.stream(context.getBeanDefinitionNames()).forEach(System.out::println); // print all the beans in the
-		// application
+		Arrays.stream(context.getBeanDefinitionNames()).forEach(System.out::println); // print all the beans in
+		// current application context
 		System.out.println();
 
 		RestTemplate restTemplate = (RestTemplate) context.getBean("restTemplate");
