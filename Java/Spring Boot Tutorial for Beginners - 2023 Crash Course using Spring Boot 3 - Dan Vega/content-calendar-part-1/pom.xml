@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.clementlee</groupId>
-	<artifactId>content-calendar-example-1</artifactId>
+	<artifactId>content-calendar-part-1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>content-calendar</name>
 	<description>Content Calendar REST API</description>
