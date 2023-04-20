@@ -1,8 +1,8 @@
 public class Greeter {
 
     // polymorphism
-    // pass the behaviour as an argument
-    // the "greet" method takes the behaviour and executes it
+    // pass the class with the behaviour as an argument
+    // the "greet" method takes the behaviour from the class and executes it
     public void greet(Greeting greeting){
         greeting.perform();
     }
