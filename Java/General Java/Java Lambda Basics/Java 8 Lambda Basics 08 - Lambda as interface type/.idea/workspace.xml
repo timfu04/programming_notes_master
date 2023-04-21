@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70986f36-4124-4fc8-bd12-07099aa47622" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 8 - Lambda as interface type/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Java 8 Lambda Basics 08 - Lambda as interface type/.gitignore" afterDir="false" />
+    <list default="true" id="f9fbd06f-c9fb-412d-a15f-05a98c6775b1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 05 - Passing Behaviour in OOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java 8 Lambda Basics 05 - Passing Behaviour in OOP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 8 - Lambda as interface type/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 8 - Lambda as interface type/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 8 - Lambda as interface type/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java 8 Lambda Basics 08 - Lambda as interface type/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 8 - Lambda as interface type/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java 8 Lambda Basics 08 - Lambda as interface type/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 8 - Lambda as interface type/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java 8 Lambda Basics 08 - Lambda as interface type/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 8 - Lambda as interface type/Java 8 Lambda Basics 8 - Lambda as interface type.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java 8 Lambda Basics 08 - Lambda as interface type/Java 8 Lambda Basics 08 - Lambda as interface type.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 8 - Lambda as interface type/src/Greeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java 8 Lambda Basics 08 - Lambda as interface type/src/Greeter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 8 - Lambda as interface type/src/Greeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java 8 Lambda Basics 08 - Lambda as interface type/src/Greeting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 8 - Lambda as interface type/src/HelloWorldGreeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java 8 Lambda Basics 08 - Lambda as interface type/src/HelloWorldGreeting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 8 - Lambda as interface type/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 8 - Lambda as interface type/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 8 - Lambda as interface type/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 8 - Lambda as interface type/Java 8 Lambda Basics 8 - Lambda as interface type.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java 8 Lambda Basics 08 - Lambda as interface type.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 8 - Lambda as interface type/src/Greeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Greeter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 8 - Lambda as interface type/src/Greeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Greeting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 8 - Lambda as interface type/src/HelloWorldGreeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorldGreeting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 9 - Lambdas vs Interface Implementations/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Java 8 Lambda Basics 09 - Lambdas vs Interface Implementations/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 9 - Lambdas vs Interface Implementations/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 9 - Lambdas vs Interface Implementations/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java 8 Lambda Basics 09 - Lambdas vs Interface Implementations/.idea/misc.xml" afterDir="false" />
@@ -30,27 +30,27 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
-  <component name="ProjectId" id="2OjCvAOk2xn4oOdsawNsecBQdrY" />
+  <component name="ProjectId" id="2OjDGHd2kBqKWVdfkFGhYARug6H" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Clement/Desktop/programming_notes/Java/General Java/Java Lambda Basics/Java 8 Lambda Basics 05 - Passing Behaviour in OOP&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Clement/Desktop/programming_notes/Java/General Java/Java Lambda Basics/Java 8 Lambda Basics 08 - Lambda as interface type&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="70986f36-4124-4fc8-bd12-07099aa47622" name="Changes" comment="" />
-      <created>1682064832092</created>
+      <changelist id="f9fbd06f-c9fb-412d-a15f-05a98c6775b1" name="Changes" comment="" />
+      <created>1682065000525</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1682064832092</updated>
+      <updated>1682065000525</updated>
     </task>
     <servers />
   </component>

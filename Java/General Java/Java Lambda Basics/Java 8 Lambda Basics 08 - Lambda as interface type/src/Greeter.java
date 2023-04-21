@@ -23,14 +23,12 @@ public class Greeter {
     MyAdd addFunction = (int a, int b) -> a + b;
 }
 
-// "@FunctionalInterface" ensure the functional interface cannot have more than one abstract method
+// Interface that works with lambda expressions cannot have more than one abstract method
 // Interface name and method name does not matter, as long as the method signature matches the lambda expressions
-@FunctionalInterface
 interface MyLambda{
     void foo();
 }
 
-@FunctionalInterface
 interface MyAdd{
     int add(int x, int y);
 }
