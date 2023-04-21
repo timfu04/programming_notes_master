@@ -3,24 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f9fbd06f-c9fb-412d-a15f-05a98c6775b1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 05 - Passing Behaviour in OOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java 8 Lambda Basics 05 - Passing Behaviour in OOP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 8 - Lambda as interface type/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 8 - Lambda as interface type/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 8 - Lambda as interface type/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 8 - Lambda as interface type/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 8 - Lambda as interface type/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 8 - Lambda as interface type/Java 8 Lambda Basics 8 - Lambda as interface type.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java 8 Lambda Basics 08 - Lambda as interface type.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 8 - Lambda as interface type/src/Greeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Greeter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 8 - Lambda as interface type/src/Greeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Greeting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 8 - Lambda as interface type/src/HelloWorldGreeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorldGreeting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 9 - Lambdas vs Interface Implementations/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Java 8 Lambda Basics 09 - Lambdas vs Interface Implementations/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 9 - Lambdas vs Interface Implementations/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 9 - Lambdas vs Interface Implementations/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java 8 Lambda Basics 09 - Lambdas vs Interface Implementations/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 9 - Lambdas vs Interface Implementations/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java 8 Lambda Basics 09 - Lambdas vs Interface Implementations/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 9 - Lambdas vs Interface Implementations/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java 8 Lambda Basics 09 - Lambdas vs Interface Implementations/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 9 - Lambdas vs Interface Implementations/Java 8 Lambda Basics 9 - Lambdas vs Interface Implementations.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java 8 Lambda Basics 09 - Lambdas vs Interface Implementations/Java 8 Lambda Basics 09 - Lambdas vs Interface Implementations.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 9 - Lambdas vs Interface Implementations/src/Greeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java 8 Lambda Basics 09 - Lambdas vs Interface Implementations/src/Greeter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 9 - Lambdas vs Interface Implementations/src/Greeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java 8 Lambda Basics 09 - Lambdas vs Interface Implementations/src/Greeting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 9 - Lambdas vs Interface Implementations/src/HelloWorldGreeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java 8 Lambda Basics 09 - Lambdas vs Interface Implementations/src/HelloWorldGreeting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 09 - Lambdas vs Interface Implementations/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java 8 Lambda Basics 09 - Lambdas vs Interface Implementations/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 11 - Runnable Using Lambdas/src/Greeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java 8 Lambda Basics 11 - Runnable Using Lambdas/src/Greeting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
