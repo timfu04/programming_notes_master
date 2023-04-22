@@ -1,6 +1,7 @@
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.function.Predicate;
 
 // With lambda expressions
 public class Unit1ExerciseSolutionJava8 {
@@ -30,18 +31,13 @@ public class Unit1ExerciseSolutionJava8 {
         printConditionally(people, p -> p.getFirstName().startsWith("C"));
     }
 
-    private static void printConditionally(List<Person> people, Condition condition) {
+    // "Predicate" is a built-in functional interface that can be used for lambda expression
+    private static void printConditionally(List<Person> people, Predicate<Person> predicate) {
         for (Person p: people){
-            if(condition.test(p)){
+            if(predicate.test(p)){
                 System.out.println(p);
             }
         }
     }
 
 }
-
-//Do not need to create interface here, because already created in Unit1ExerciseSolutionJava7 (thats why commented)
-
-//interface Condition{
-//    boolean test(Person p);
-//}
