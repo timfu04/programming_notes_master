@@ -1,12 +1,17 @@
 package com.clementlee.contentcalendar.respository;
 
 import com.clementlee.contentcalendar.model.Content;
+import com.clementlee.contentcalendar.model.Status;
+import com.clementlee.contentcalendar.model.Type;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.time.LocalDateTime;
+import java.util.List;
 
+// Part 4
 @Repository
 public class ContentJdbcTemplateRepository {
 
@@ -22,10 +27,10 @@ public class ContentJdbcTemplateRepository {
         return new Content(rs.getInt("id"),
                             rs.getString("title"),
                             rs.getString("desc"),
-                            rs.getString("status"),
-                            rs.getString("content_type"),
-                            rs.getTimestamp("date_created"),
-                            rs.getTimestamp("date_updated"),
+                            Status.valueOf(rs.getString("status")),
+                            Type.valueOf(rs.getString("content_type")),
+                            rs.getObject("date_created", LocalDateTime.class),
+                            rs.getObject("date_updated",LocalDateTime.class),
                             rs.getString("url"));
     }
 
@@ -55,8 +60,5 @@ public class ContentJdbcTemplateRepository {
         Content content = jdbcTemplate.queryForObject(sql, new Object[]{id}, ContentJdbcTemplateRepository::mapRow);
         return content;
     }
-
-
-
 
 }

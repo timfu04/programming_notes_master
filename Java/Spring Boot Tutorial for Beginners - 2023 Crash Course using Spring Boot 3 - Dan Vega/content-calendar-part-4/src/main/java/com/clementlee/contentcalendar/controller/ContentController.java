@@ -2,6 +2,7 @@ package com.clementlee.contentcalendar.controller;
 
 import com.clementlee.contentcalendar.model.Content;
 import com.clementlee.contentcalendar.respository.ContentCollectionRepository;
+import com.clementlee.contentcalendar.respository.ContentJdbcTemplateRepository;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
@@ -14,7 +15,12 @@ import java.util.List;
 @CrossOrigin // default settings; enables different origins(e.g. ports) to interact
 public class ContentController {
 
+    // schema.sql approach
     private final ContentCollectionRepository repository;
+
+    // JDBC API approach
+    // Add this and adjust other code in this file to make it work with JDBC API
+//    private final ContentJdbcTemplateRepository repository;
 
     // Marked as "@Autowired" implicitly/automatically
     public ContentController(ContentCollectionRepository repository) {
