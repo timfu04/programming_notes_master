@@ -14,7 +14,7 @@ public class MethodReferenceExample2 {
                 new Person("Matthew", "Arnold", 39)
         );
 
-        // "p -> System.out.println(p)" has same take p as input, and output p
+        // "p -> System.out.println(p)" has "p" as argument, and "p" is not modified when passed into another method (System.out.println),
         // therefore, can be replaced to method reference
         // "System.out::println" is exactly same as "p -> System.out.println(p)"
         performConditionally(people, p -> true, System.out::println);
