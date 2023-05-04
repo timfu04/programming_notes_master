@@ -1,0 +1,10 @@
+##### Change server port to 3000 #####
+server:
+  port: 3000
+
+##### Start Spring Boot application without web server #####
+##### Disable web server #####
+#### Default type is "servlet" #####
+spring:
+  main:
+    web-application-type: none
