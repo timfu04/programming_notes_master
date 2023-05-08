@@ -27,9 +27,10 @@ public class User implements UserDetails {
     private String lastname;
     private String email;
     private String password;
-    @Enumerated(EnumType.STRING)
+    @Enumerated(EnumType.STRING) // enumerated value will be stored as a string in the database
     private Role role;
 
+    // return list of role
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return List.of(new SimpleGrantedAuthority(role.name()));
