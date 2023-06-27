@@ -5,17 +5,17 @@
  */
 
 @SuppressWarnings("unchecked")
-public class genericDynamicArray<T> implements Iterable<T> {
+public class GenericDynamicArray<T> implements Iterable<T> {
 
     private T[] arr;
     private int len = 0; // length user thinks array is
     private int capacity = 0; // Actual array size
 
-    public genericDynamicArray() {
+    public GenericDynamicArray() {
         this(16); // invokes another constructor with initial capacity of 16
     }
 
-    public genericDynamicArray(int capacity) {
+    public GenericDynamicArray(int capacity) {
         if (capacity < 0) throw new IllegalArgumentException("Illegal Capacity: " + capacity);
         this.capacity = capacity;
         arr = (T[]) new Object[capacity];
