@@ -3,19 +3,18 @@
  *
  * @author William Fiset, william.alexandre.fiset@gmail.com
  */
-
 @SuppressWarnings("unchecked")
-public class GenericDynamicArray<T> implements Iterable<T> {
+public class DynamicArray<T> implements Iterable<T> {
 
     private T[] arr;
     private int len = 0; // length user thinks array is
     private int capacity = 0; // Actual array size
 
-    public GenericDynamicArray() {
-        this(16); // invokes another constructor with initial capacity of 16
+    public DynamicArray() {
+        this(16);
     }
 
-    public GenericDynamicArray(int capacity) {
+    public DynamicArray(int capacity) {
         if (capacity < 0) throw new IllegalArgumentException("Illegal Capacity: " + capacity);
         this.capacity = capacity;
         arr = (T[]) new Object[capacity];
@@ -29,10 +28,12 @@ public class GenericDynamicArray<T> implements Iterable<T> {
         return size() == 0;
     }
 
+    // Improvement: Add bounds checking
     public T get(int index) {
         return arr[index];
     }
 
+    // Improvement: Add bounds checking
     public void set(int index, T elem) {
         arr[index] = elem;
     }
@@ -54,6 +55,41 @@ public class GenericDynamicArray<T> implements Iterable<T> {
         }
 
         arr[len++] = elem;
+    }
+
+    /**
+     * Insertion
+     * @author Clement Lee Tim Fu
+     */
+    public void add(int add_index, T elem){
+        if (add_index < 0 || add_index >= len) throw new IndexOutOfBoundsException();
+        if (len + 1 >= capacity) { // resize
+            if (capacity == 0) capacity = 1;
+            else capacity *= 2; // double the size
+            T[] new_arr = (T[]) new Object[capacity];
+            for (int i = 0, j = 0; j < len+1; i++, j++){ // len + 1 because new array with have one more element
+                if (j == add_index){
+                    new_arr[j] = elem;
+                    i--;
+                } else {
+                    new_arr[j] = arr[i];
+                }
+            }
+            arr = new_arr;
+            len++;
+        } else {
+            T[] new_arr = (T[]) new Object[capacity];
+            for (int i = 0, j = 0; j < len+1; i++, j++){ // len + 1 because new array with have one more element
+                if (j == add_index){
+                    new_arr[j] = elem;
+                    i--;
+                } else {
+                    new_arr[j] = arr[i];
+                }
+            }
+            arr = new_arr;
+            len++;
+        }
     }
 
     // Removes an element at the specified index in this array.
@@ -122,5 +158,29 @@ public class GenericDynamicArray<T> implements Iterable<T> {
             for (int i = 0; i < len - 1; i++) sb.append(arr[i] + ", ");
             return sb.append(arr[len - 1] + "]").toString();
         }
+    }
+
+    // Main method
+    public static void main(String[] args) {
+        // Resize
+        DynamicArray<Integer> dynamicArray = new DynamicArray<>();
+        for (int i = 1; i < 16; i++){
+            dynamicArray.add(i);
+        }
+        dynamicArray.add(2,100);
+        System.out.println(dynamicArray);
+        System.out.println(dynamicArray.size());
+        System.out.println(dynamicArray.capacity);
+        System.out.println("\n");
+
+        // Without resize
+        DynamicArray<Integer> dynamicArray2 = new DynamicArray<>();
+        for (int i = 1; i < 5; i++){
+            dynamicArray2.add(i);
+        }
+        dynamicArray2.add(2,100);
+        System.out.println(dynamicArray2);
+        System.out.println(dynamicArray2.size());
+        System.out.println(dynamicArray2.capacity);
     }
 }
