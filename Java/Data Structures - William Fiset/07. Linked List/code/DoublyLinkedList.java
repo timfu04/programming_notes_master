@@ -76,6 +76,32 @@ public class DoublyLinkedList<T> implements Iterable<T> {
         size++;
     }
 
+    // Add an element at a specified index
+    public void addAt(int index, T data) throws Exception {
+        if (index < 0 || index > size) {
+            throw new Exception("Illegal Index");
+        }
+        if (index == 0) {
+            addFirst(data);
+            return;
+        }
+
+        if (index == size) {
+            addLast(data);
+            return;
+        }
+
+        Node<T> temp = head;
+        for (int i = 0; i < index - 1; i++) {
+            temp = temp.next;
+        }
+        Node<T> newNode = new Node<>(data, temp, temp.next);
+        temp.next.prev = newNode;
+        temp.next = newNode;
+
+        size++;
+    }
+
     // Check the value of the first node if it exists, O(1)
     public T peekFirst() {
         if (isEmpty()) throw new RuntimeException("Empty list");
@@ -170,11 +196,11 @@ public class DoublyLinkedList<T> implements Iterable<T> {
                 trav = trav.next;
             }
             // Search from the back of the list
-        } else
+        } else {
             for (i = size - 1, trav = tail; i != index; i--) {
                 trav = trav.prev;
             }
-
+        }
         return remove(trav);
     }
 
@@ -215,13 +241,13 @@ public class DoublyLinkedList<T> implements Iterable<T> {
                 }
             }
             // Search for non null object
-        } else
+        } else {
             for (; trav != null; trav = trav.next, index++) {
                 if (obj.equals(trav.data)) {
                     return index;
                 }
             }
-
+        }
         return -1;
     }
 
@@ -260,7 +286,10 @@ public class DoublyLinkedList<T> implements Iterable<T> {
         sb.append("[ ");
         Node<T> trav = head;
         while (trav != null) {
-            sb.append(trav.data + ", ");
+            sb.append(trav.data);
+            if (trav.next != null) {
+                sb.append(", ");
+            }
             trav = trav.next;
         }
         sb.append(" ]");
