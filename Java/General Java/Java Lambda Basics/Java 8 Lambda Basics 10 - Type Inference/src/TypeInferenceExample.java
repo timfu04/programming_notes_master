@@ -5,6 +5,7 @@ public class TypeInferenceExample {
         // Original: StringLengthLambda myLambda = (String s) -> s.length();
         // Remove variable type in parameter
         // Remove parentheses if only one parameter
+        // Becomes the lambda expression below
         StringLengthLambda myLambda = s -> s.length();
         System.out.println(myLambda.getLength("Hello Lambda"));
 

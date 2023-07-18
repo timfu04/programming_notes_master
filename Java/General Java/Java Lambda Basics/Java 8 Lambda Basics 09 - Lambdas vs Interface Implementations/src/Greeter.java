@@ -14,8 +14,8 @@ public class Greeter {
         // Implementing the "Greeting" interface by only creating a function
         Greeting lambdaGreeting = () -> System.out.println("Hello World from Lambda Expression!");
 
-        // Inner class - a class declared inside another class
         // Anonymous inner class - inner class without a name, create a single object
+        // Inner class - a class declared inside another class
         // Can extend a class or implement an interface (one interface at a time) but not both at a time
         // Extra source: https://www.geeksforgeeks.org/anonymous-inner-class-java/
         Greeting innerClassGreeting = new Greeting() {
@@ -25,7 +25,7 @@ public class Greeter {
             }
         };
 
-        // Lambda expression in similar to anonymous inner class
+        // Lambda expression is  similar to anonymous inner class
 
         helloWorldGreeting.perform();
         // Lambda expression is behaving like the implementation of the "Greeting" interface
