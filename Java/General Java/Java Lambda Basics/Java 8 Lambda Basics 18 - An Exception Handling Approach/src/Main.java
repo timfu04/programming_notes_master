@@ -6,11 +6,11 @@ public class Main {
         int[] someNumbers = {1, 2, 3, 4};
         int key = 0;
 
-        // lamba expression should be short,concise, one line (as possible)
-        // externalize try catch into a separate method
-        // wrap this lamba expression with another lamba expression
+        // Lamba expression should be short,concise, one line (as possible)
+        // Externalize try catch into a separate method
+        // Wrap this lamba expression with another lamba expression
 
-        // pass lambda expression into another function for validation, return the same object if no exception found
+        // Pass lambda expression into another function for validation, return another new lambda
         process(someNumbers, key, wrapperLambda((v, k) -> System.out.println(v / k)));
     }
 
@@ -20,8 +20,9 @@ public class Main {
         }
     }
 
-    // pass-through function
+    // Pass-through function
     private static BiConsumer<Integer, Integer> wrapperLambda(BiConsumer<Integer, Integer> biconsumer){
+        // Return a new lambda expression
         return (v, k) ->{
             try{
                 biconsumer.accept(v, k);

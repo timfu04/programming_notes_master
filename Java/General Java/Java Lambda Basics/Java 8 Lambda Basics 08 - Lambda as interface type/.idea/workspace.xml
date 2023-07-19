@@ -7,9 +7,10 @@
     <list default="true" id="f9fbd06f-c9fb-412d-a15f-05a98c6775b1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 05 - Passing Behaviour in OOP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java 8 Lambda Basics 05 - Passing Behaviour in OOP/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 05 - Passing Behaviour in OOP/src/Greeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java 8 Lambda Basics 05 - Passing Behaviour in OOP/src/Greeter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 05 - Passing Behaviour in OOP/src/HelloWorldGreeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java 8 Lambda Basics 05 - Passing Behaviour in OOP/src/HelloWorldGreeting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 05 - Passing Behaviour in OOP/src/Greeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java 8 Lambda Basics 05 - Passing Behaviour in OOP/src/Greeting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Greeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Greeter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelloWorldGreeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorldGreeting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

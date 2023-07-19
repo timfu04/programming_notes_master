@@ -21,7 +21,7 @@ public class Unit1ExerciseSolutionJava7 {
         Collections.sort(people, new Comparator<Person>() {
             @Override
             public int compare(Person o1, Person o2) {
-                return o1.getLastName().compareTo(o2.getLastName()); // "compareTo" compares strings and return boolean value
+                return o1.getLastName().compareTo(o2.getLastName()); // "compareTo" compares strings and return integer value
             }
         });
 
@@ -36,10 +36,20 @@ public class Unit1ExerciseSolutionJava7 {
         System.out.println();
 
         // Prints all people that have last name beginning in C (conditional method)
-        printConditionally(people, new Condition() {
+        printConditionally(people, new Condition() { // Pass in implementation of Condition
             @Override
             public boolean test(Person p) {
                 return p.getLastName().startsWith("C");
+            }
+        });
+
+        System.out.println();
+
+        // Prints all people that have last name beginning in D (conditional method)
+        printConditionally(people, new Condition() { // Pass in implementation of Condition
+            @Override
+            public boolean test(Person p) {
+                return p.getLastName().startsWith("D");
             }
         });
     }
@@ -50,7 +60,7 @@ public class Unit1ExerciseSolutionJava7 {
         }
     }
 
-    // need to create another method if you want last name beginning with something else (make it conditional)
+    // Need to create another method if you want last name beginning with something else (try make it conditional)
     private static void printLastNameBeginningWithC(List<Person> people) {
         for (Person p: people){
             if (p.getLastName().startsWith("C")){
@@ -69,6 +79,7 @@ public class Unit1ExerciseSolutionJava7 {
 
 }
 
+@FunctionalInterface
 interface Condition{
     boolean test(Person p);
 }

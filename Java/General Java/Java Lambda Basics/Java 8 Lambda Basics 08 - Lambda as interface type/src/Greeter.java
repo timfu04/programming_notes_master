@@ -3,7 +3,7 @@ public class Greeter {
     // Polymorphism
     // Pass in the class with the behaviour as an argument
     // The "greet" method takes the behaviour from the class and executes it
-    public void greet(Greeting greeting){ // Takes Greeting interface as argument
+    public void greet(Greeting greeting){
         greeting.perform();
     }
 
@@ -14,7 +14,7 @@ public class Greeter {
     }
 
     // What type should be provided for the lambda expressions?
-    // Reuse interface to create new "function type" for lambda expressions
+    // Use interface to create new "function type" for lambda expressions
     MyLambda myLamdaFunction = () -> System.out.println("Hello World!");
 
     // Already created "Greeting" interface that matches the method signature in this lambda expression

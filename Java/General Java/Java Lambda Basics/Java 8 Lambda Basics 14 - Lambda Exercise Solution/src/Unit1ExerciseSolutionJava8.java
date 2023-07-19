@@ -15,7 +15,7 @@ public class Unit1ExerciseSolutionJava8 {
         );
 
         // Step 1: Sort list by last name (replaced with lambda expression)
-        Collections.sort(people, (Person p1, Person p2) -> p1.getLastName().compareTo(p2.getLastName()));
+        Collections.sort(people, (p1, p2) -> p1.getLastName().compareTo(p2.getLastName()));
 
         // Step 2: Create a method that prints all elements in the list
         // Print all people, because always return true

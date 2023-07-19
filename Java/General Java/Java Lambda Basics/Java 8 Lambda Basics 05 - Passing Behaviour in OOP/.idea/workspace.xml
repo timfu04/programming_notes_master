@@ -7,9 +7,7 @@
     <list default="true" id="70986f36-4124-4fc8-bd12-07099aa47622" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Greeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Greeter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWorldGreeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorldGreeting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 08 - Lambda as interface type/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java 8 Lambda Basics 08 - Lambda as interface type/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java 8 Lambda Basics 08 - Lambda as interface type/src/Greeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java 8 Lambda Basics 08 - Lambda as interface type/src/Greeter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Greeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Greeting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
