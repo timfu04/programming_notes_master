@@ -13,7 +13,7 @@ public class StreamExample1 {
         );
 
         people.stream()
-                .filter(p -> p.getLastName().startsWith("C"))
+                .filter(p -> p.getLastName().startsWith("C")) // only those return true (pass the Predicate) proceed to forEach
                 .forEach(p -> System.out.println(p.getFirstName()));
 
     }
